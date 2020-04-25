@@ -9,22 +9,8 @@
 // AppRegistry.registerComponent(appName, () => App);
 
 
-import App from "./App";
 import { Navigation } from "react-native-navigation";
+import regiserRoutes, { setAuthStack } from './src/router/registerRoutes';
+regiserRoutes();
 
-Navigation.registerComponent('com.myApp.WelcomeScreen', () => App);
-Navigation.events().registerAppLaunchedListener(() => {
-    Navigation.setRoot({
-        root: {
-            stack: {
-                children: [
-                    {
-                        component: {
-                            name: 'com.myApp.WelcomeScreen'
-                        }
-                    }
-                ]
-            }
-        }
-    });
-});
+Navigation.events().registerAppLaunchedListener(setAuthStack);
