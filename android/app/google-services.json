@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "690719168075",
+    "firebase_url": "https://react-native-fcm-57fb0.firebaseio.com",
+    "project_id": "react-native-fcm-57fb0",
+    "storage_bucket": "react-native-fcm-57fb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690719168075:android:d16360a6bfdea8770a9fce",
+        "android_client_info": {
+          "package_name": "com.reactwixnavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690719168075-ea90lmmpp66ibb8epfhkprdog8orf47r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4yS3SVxK1hfO7oiDFGVgPxvWa14TUd_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690719168075-ea90lmmpp66ibb8epfhkprdog8orf47r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
